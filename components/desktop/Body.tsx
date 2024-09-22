@@ -1,12 +1,13 @@
 "use client";
-import ChartsPanel from "./body/ChartsPanel";
-import Header from "./body/Header";
-import GaugeCard from "../UI/Charts/GaugeCard";
 import BarChartCard from "../UI/Charts/BarChartCard";
+import Chart6 from "../UI/Charts/Chart6";
+import GaugeCard from "../UI/Charts/GaugeCard";
 import LineChartCard from "../UI/Charts/LineChartCard";
 import MultiSeriesPieChartCard from "../UI/Charts/MultiSeriesPie";
 import MultiValuePieCard from "../UI/Charts/MultiValuePieCard";
-import Chart6 from "../UI/Charts/Chart6";
+import ChartsPanel from "./body/ChartsPanel";
+import Header from "./body/Header";
+
 
 const Body = () => {
   return (
