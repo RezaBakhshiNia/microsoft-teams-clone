@@ -15,7 +15,7 @@ const GaugeCard: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-between border border-gray-300 rounded-lg shadow-md p-2 min-w-sm w-80 h-96">
+    <div className="flex flex-col items-center justify-between border border-gray-300 rounded-lg shadow-md p-2 min-w-sm w-80 h-96 sm:w-full sm:self-center">
       {/* Card Header */}
       <div className="flex justify-between items-center w-full">
         <div>

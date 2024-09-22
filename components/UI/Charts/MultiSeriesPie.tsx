@@ -191,7 +191,7 @@ const MultiSeriesPieChartCard: React.FC<MultiSeriesPieChartCardProps> = ({
       </div>
 
       {/* Pie Chart */}
-      <div className="w-full mt-4 relative h-80">
+      <div className="w-full mt-4 relative h-64">
         <Pie data={data} options={options} />
         <div className="absolute top-[-15px] right-14">
           <ul>
